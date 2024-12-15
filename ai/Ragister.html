@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Registration page</title>
+        <style>
+            body{
+               background-image: url(./empty-hallway-background_23-2149408808.avif);
+            }
+            #contant{
+                text-align: center;
+                font-size:xx-large;
+            }
+            #menu{
+                height:70%;
+                width:80%;
+                margin-left:10%;
+                margin-right:10%;
+                margin-top:5%;
+                background-color:white;
+            }
+            #menu #menutop{
+                height:50%;
+            }
+            #menu #menuleft{
+                height:100%;
+                width: 50%;
+                background-color:white;
+                text-align: center;
+                float:left;
+            }
+            #menu #menuright{
+                height:100%;
+                width: 50%;
+                background-color:white;
+                text-align: center;
+                float: right;
+            }
+            #menu #menubottom{
+                margin-top:px;
+                margin-left:40px;
+                font-size: large;
+            }
+            #menu #menubottom #b2{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contant"><b><h2 style="margin-top: 30px;">Registration</h2></b></div>
+        <div id="menu" style="margin-top:0.1px;"> 
+            <div id="menutop">
+           <div id="menuleft"><br></br>
+            <div>Full Name</div>
+            <input type="text" placeholder="Enter your name" style="width:80%; height:12%;"><br></br>
+            <div>Email</div>
+            <input type="email" placeholder="Enter your email" style="width:80%; height:12%;"><br></br>
+            <div>password</div>
+            <input type="password" placeholder=" Enter your password" style="width:80%; height:12%;">
+
+
+           </div>
+           <div id="menuright"><br></br>
+            <div>Username</div>
+            <input type="text" placeholder="Enter your username" style="width:80%; height: 12%;"><br></br>
+            <div>Phone number</div>
+            <input type="number" placeholder="Enter your number" style="width:80%; height:12%;"><br></br>
+            <div>Confirm password</div>
+            <input type="password" placeholder="Confirm your password" style="width:80%; height:12%;">
+           </div></div>
+           <div id="menubottom">
+            <div id="b1">Gender</div><br></br>
+            
+            <input type="radio"value="male" name="gen">Male
+            <input type="radio" value="male" name="gen"style="margin-left:10%;">female
+            <input type="radio" value="male" name="gen"style="margin-left:10%;">Prefer not to say<br></br><br></br>
+            <div id="b2">
+            <button style="background-color: green; width:80%; padding:12px;" type="submit">Register</button>
+            </div>
+           </div>
+        </div>
+    </body>
+</html>
